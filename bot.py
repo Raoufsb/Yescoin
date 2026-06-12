@@ -8,7 +8,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-TOKEN = ""
+TOKEN = "tokbot"
 QUIZ_URL = "https://t.me/bem4_bot/Chatai"
 
 async def send_quiz_response(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
